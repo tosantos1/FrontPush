@@ -1,2 +1,2 @@
 # FrontPush
- Curso FrontPush dirigido por Násser Yousef
+ Curso FrontPush dirigido por https://github.com/nyousefali
