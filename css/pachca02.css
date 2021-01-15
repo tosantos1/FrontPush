@@ -34,12 +34,25 @@ body {
 }
 
 .box {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(220.94deg, #6F57F9 14.43%, #342680 85.28%);
-  border-radius: 16px;
-  /*&:hover {
-        transform: rotate(180deg);
-    }*/
+    width: 100px;
+    height: 100px;
+    
+    background: linear-gradient(black, white);
+    border-radius: 16px;
+    /* animation: box 3s ease infinite alternate; */
+    animation-name: box;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: normal;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+}
+@keyframes box { 
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 150px;
+    }
 }
 /*# sourceMappingURL=pachca02.css.map */
