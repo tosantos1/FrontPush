@@ -19,16 +19,16 @@ body {
     stroke-width: 1;
     stroke-dasharray: 150 0;
     stroke-dashoffset: 20;
-    animation: xbox-text 7s ease 0s forwards;
+    animation: xbox-text 7s ease 2s forwards;
 }
 #xbox-x2{
-    animation: xbox-text 7s ease 0s forwards;
+    animation: xbox-text 7s ease 2s forwards;
 }
 #xbox-b{
-    animation: xbox-text 7s ease 0s forwards;
+    animation: xbox-text 7s ease 2s forwards;
 }
 #xbox-o{
-    animation: xbox-text 7s ease 0s forwards;
+    animation: xbox-text 7s ease 2s forwards;
 }
 @keyframes xbox-text{
     0%{
