@@ -23,9 +23,8 @@ body {
 .parent {
   width: 100px;
   height: 100px;
-  background-color: rgb(255, 255, 255);
+  background-color: #ccc;
   border-radius: 16px;
-  animation: parent 15s ease infinite alternate; 
   -webkit-perspective: 200px;
           perspective: 200px;
   -webkit-transform: rotateY(30deg);
@@ -35,28 +34,39 @@ body {
 }
 
 .box {
-    width: 100px;
-    height: 100px;
-    
-    background: linear-gradient(black, white);
-    border-radius: 16px;
-    animation: box 5s ease infinite alternate; 
-    
+  width: 100px;
+  height: 100px;
+  background: black, white;
+  border-radius: 16px;
+  -webkit-animation-name: box;
+          animation-name: box;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  -webkit-animation-fill-mode: normal;
+          animation-fill-mode: normal;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
 }
-@keyframes box { 
-    0% {
-        transform: rotateX(0deg);
-    }
-    100% {
-        transform: rotateX(360deg);
-    }
+
+@-webkit-keyframes box {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 150px;
+  }
 }
-@keyframes parent { 
-    0% {
-        transform: rotateY(0deg);
-    }
-    100% {
-        transform: rotateY(360deg);
-    }
+
+@keyframes box {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 150px;
+  }
 }
 /*# sourceMappingURL=pachca02.css.map */
