@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Prioridade da caixa*/
+    font-family: sans-serif;
+}
+body{
+    background-color: #cccccc;
+}
+.navbar{
+    width: 100%;
+    padding: 10px 10px;
+
+    background-color: #101010;
+
+    box-shadow: 0 5px 20px 10px rgba(0, 0, 0,0.5);
+
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 50px;
+    height: 50px;  
+}
+.menu{
+    list-style: none;
+    display: flex;
+    
+}
+.menu li {
+    margin: 0px 10px;
+
+}
+a{
+    text-decoration: none;
+    display: block;
+
+    padding: 16px 32px;
+    
+    border-radius: 8px;
+
+    color: white;
+    transition: .5s ease;
+}
+a:hover{
+    background-color: #202020;
+
+}
+.container{
+    max-width: 1200px;
+    /* border: 1px solid #202020; */
+
+    margin:  0px auto;
+    padding: 20px 40px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item1{
+   
+  
+    margin: 20px;
+    /*background-color: #1a1a;*/
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 600px;
+}
+.item1-img{
+    max-width: 100%;
+    height: auto;
+
+    background-color: #101010;
+    border-radius: 24px;
+}
+h3{
+    
+    margin: 10px;
+    color: black;
+}
+.item2{
+    margin: 5px;
+    
+    /*background-color: red;*/
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+
+    display: flex;
+    flex-direction: column;
+}
+.item2-child{
+    display: flex;
+    /*border: 1px solid blue;*/
+}
+
+.item2-img2 img{
+    width: 180px;
+    height: 100px;
+    margin: 15px;
+    /*background-color: #101010;*/
+    border-radius: 10px;
+}
+.item2-img3 img{
+    width: 180px;
+    height: 100px;
+    margin: 15px;
+    /*background-color: #101010;*/
+    border-radius: 10px;
+}
+.item2-img4 img{
+    width: 180px;
+    height: 100px;
+    margin: 15px;
+    /*background-color: #101010;*/
+    border-radius: 10px;
+}
+.item2-img5 img{
+    width: 180px;
+    height: 100px;
+    margin: 15px;
+    /*background-color: #101010;*/
+    border-radius: 10px;
+}
+.item2-text{
+    margin: auto;
+}
+/*.item2-text h4{
+    margin: auto;
+    border: 1px solid black;
+}
+.item2-text p{
+    text-align: left;
+    border: 1px solid black;
+}*/
+
